@@ -37,8 +37,8 @@ class Box {
         return length * breadth * height;
     }
 
-    Boolean compareBoxes(Box b1, Box b2) {
-        return b1.length == b2.length && b1.breadth == b2.breadth && b1.height == b2.height;
+    Boolean isEqual(Box b2) {
+        return length == b2.length && breadth == b2.breadth && height == b2.height;
     }
 
 }
@@ -58,8 +58,8 @@ class Cube {
         return side * side * side;
     }
 
-    Boolean compareCubes(Cube c1, Cube c2) {
-        return c1.side == c2.side;
+    Boolean isEqual(Cube c2) {
+        return side == c2.side;
     }
 
 }
