@@ -17,12 +17,12 @@ public class TestOrganization {
 		Employee[] employeeArray = new Employee[sc.nextInt()];
 
 		do {
-			// menu to create and view accounts
+			// menu
 			System.out.print(
 					"\n 1.Hire Manager\n 2.Hire worker \n 3.List All Employees \n 4.Update basic salary \n 5.getPerformanceBonus [Manager] \n 6.getHourlyRate [Worker]  \n 7.Quit \n\tChoose option [int]: ");
 			switch (sc.nextInt()) {
 			case 1:
-				// upcasting loadAccount to Account
+				// upcasting
 				if (index < (employeeArray.length)) {
 					System.out.print("\nEnter name, deptId, basic, performanceBonus[String String double double]: ");
 					employeeArray[index++] = new Manager(sc.next(), sc.next(), sc.nextDouble(), sc.nextDouble());
@@ -30,7 +30,7 @@ public class TestOrganization {
 					System.out.println("\nAll positions filled.");
 				break;
 			case 2:
-				// upcasting savingAccount to Account
+				// upcasting
 				if (index < (employeeArray.length)) {
 					System.out.print(
 							"\nEnter name, deptId, basic, hoursWorker, hourlyRate[String String double double double]: ");
@@ -49,7 +49,7 @@ public class TestOrganization {
 				}
 				System.out.print("\n--------------------------------------------------\n");
 				break;
-			case 4:
+			case 4: 
 				System.out.print("\nEnter empId, increament[int double]: ");
 				int id = sc.nextInt();
 				if (id >= 0 && id < employeeArray.length) {
@@ -62,7 +62,8 @@ public class TestOrganization {
 			case 5:				
 				System.out.print("\nEnter Manager empId [int]: ");
 				int mId = sc.nextInt();
-				if(employeeArray[mId] instanceof Manager)
+				if(employeeArray[mId] instanceof Manager)  
+					// downcasting
 					System.out.println("performanceBonus "+((Manager)employeeArray[mId]).getPerformanceBonus());
 				else
 					System.out.println("Wrong employee id [" + mId + "]");
@@ -72,6 +73,7 @@ public class TestOrganization {
 				System.out.print("\nEnter Worker empId [int]: ");
 				int wId = sc.nextInt();
 				if(employeeArray[wId] instanceof Worker)
+					// downcasting
 					System.out.println("hourlyRate "+((Worker)employeeArray[wId]).getHourlyRate());
 				else
 					System.out.println("Wrong employee id [" + wId + "]");
