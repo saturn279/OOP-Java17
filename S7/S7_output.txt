@@ -1,0 +1,150 @@
+
+Enter number of employees to hire [int]: 2
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary  
+ 5.Quit 
+	Choose option [int]: 1
+
+Enter name, deptId, basic, performanceBonus[String String double double]: s s 1 1 
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary  
+ 5.Quit 
+	Choose option [int]: 2
+
+Enter name, deptId, basic, hoursWorker, hourlyRate[String String double double double]: s s 2 2 2
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary  
+ 5.Quit 
+	Choose option [int]: 3
+
+--------------------------------------------------
+
+Employee [id=0, name=s, deptId=s, basic=1.0] Manager [performanceBonus=1.0, netSalary=2.0]
+Employee [id=1, name=s, deptId=s, basic=2.0] Worker [hoursWorker=2.0, hourlyRate=2.0, netSalary=6.0]
+
+--------------------------------------------------
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary  
+ 5.Quit 
+	Choose option [int]: 4
+
+Enter empId, increament[int double]: 1
+10
+basic updated. 
+Employee [id=1, name=s, deptId=s, basic=12.0] Worker [hoursWorker=2.0, hourlyRate=2.0, netSalary=16.0]
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary  
+ 5.Quit 
+	Choose option [int]: 4
+
+Enter empId, increament[int double]: 100 10
+Invalid id [100]
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary  
+ 5.Quit 
+	Choose option [int]: 
+
+After adding downcasting
+
+Enter number of employees to hire [int]: 2
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary 
+ 5. getPerformanceBonus [Manager] 
+ 6. getHourlyRate [Worker]  
+ 7.Quit 
+	Choose option [int]: 1
+
+Enter name, deptId, basic, performanceBonus[String String double double]: m m 1 1
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary 
+ 5. getPerformanceBonus [Manager] 
+ 6. getHourlyRate [Worker]  
+ 7.Quit 
+	Choose option [int]: 2
+
+Enter name, deptId, basic, hoursWorker, hourlyRate[String String double double double]: w w 2 2 2
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary 
+ 5. getPerformanceBonus [Manager] 
+ 6. getHourlyRate [Worker]  
+ 7.Quit 
+	Choose option [int]: 3
+
+--------------------------------------------------
+
+Employee [id=0, name=m, deptId=m, basic=1.0] Manager [performanceBonus=1.0, netSalary=2.0]
+Employee [id=1, name=w, deptId=w, basic=2.0] Worker [hoursWorker=2.0, hourlyRate=2.0, netSalary=6.0]
+
+--------------------------------------------------
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary 
+ 5. getPerformanceBonus [Manager] 
+ 6. getHourlyRate [Worker]  
+ 7.Quit 
+	Choose option [int]: 5
+
+Enter empId [int]: 0
+performanceBonus 1.0
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary 
+ 5. getPerformanceBonus [Manager] 
+ 6. getHourlyRate [Worker]  
+ 7.Quit 
+	Choose option [int]: 6
+
+Enter empId [int]: 1
+hourlyRate 2.0
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary 
+ 5. getPerformanceBonus [Manager] 
+ 6. getHourlyRate [Worker]  
+ 7.Quit 
+	Choose option [int]: 5
+
+Enter empId [int]: 1
+Wrong employee id [1]
+
+ 1.Hire Manager
+ 2.Hire worker 
+ 3.List All Employees 
+ 4.Update basic salary 
+ 5. getPerformanceBonus [Manager] 
+ 6. getHourlyRate [Worker]  
+ 7.Quit 
+	Choose option [int]: 
