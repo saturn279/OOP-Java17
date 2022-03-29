@@ -10,7 +10,7 @@ Enter number of accounts to create [int]: 1
 
                 Choose option: 1
 
-Enter holderName, loanBalance, membershipType, transactionDate [double String double string dd-MM-yyyy]: Ren 1000 GOLD 11-2-22
+Enter holderName, loanBalance, membershipType, transactionDate [double String double string dd-MM-yyyy]: Ren 1000 GOLD 11-2-2022
 
 ...............Menu...............
 
@@ -23,6 +23,6 @@ Enter holderName, loanBalance, membershipType, transactionDate [double String do
 
 --------------------------------------------------
 
-Account [holderName=Ren, id=0.0, membershipType=GOLD, transactionDate=11-02-0022] LoanAccount [loansBalance=1000.0]
+Account [holderName=Ren, id=0.0, membershipType=GOLD, transactionDate=11-02-2022] LoanAccount [loansBalance=1000.0]
 
 --------------------------------------------------
