@@ -1,0 +1,79 @@
+
+Enter number of Customers to register [int]: 2
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Quit
+
+                Choose option: 1
+
+Enter name email password registrationAmount dateOfBirth paymentOption  [String String String double dd-MM-yyyy String]:  s s@.com pass 1000 1-1-2000 debitcard
+Invalid Date of Birth
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Quit
+
+                Choose option: 1
+
+Enter name email password registrationAmount dateOfBirth paymentOption  [String String String double dd-MM-yyyy String]:  s s@.com pass 1000 1-1-1998 debitcard    
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Quit
+
+                Choose option: 2
+
+Customer [dob=01-01-1998, email=s@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]
+
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Quit
+
+                Choose option: 1
+
+Enter name email password registrationAmount dateOfBirth paymentOption  [String String String double dd-MM-yyyy String]: s s@.com pass 1000 1-1-1998 debitcard  
+Account already exists.
+
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Quit
+
+                Choose option: 2
+
+Customer [dob=01-01-1998, email=s@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]
+
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Quit
+
+                Choose option: 1
+
+Enter name email password registrationAmount dateOfBirth paymentOption  [String String String double dd-MM-yyyy String]: s s1@.com pass 1000 1-1-1998 debitcard
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Quit
+
+                Choose option: 2
+
+Customer [dob=01-01-1998, email=s@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]
+
+Customer [dob=01-01-1998, email=s1@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]
