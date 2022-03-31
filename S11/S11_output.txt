@@ -1,0 +1,53 @@
+
+Enter number of Customers to register [int]: 1
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Quit
+
+                Choose option: 1
+
+Enter name email password registrationAmount dateOfBirth paymentOption  [String String String double dd-MM-yyyy String]: s @.com pass 1000 11-11-1998 debitcard
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Quit
+
+                Choose option: 2
+
+Customer [dob=11-11-1998, email=@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]  
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Quit
+
+                Choose option: 4
+
+Enter Customer email, subscriptionPackage, durationInMonths [String String int]: @.com premium 3
+Subscription [durationInMonths=3, startingFrom=31-03-2022, subscriptionPackage=PREMIUM]
+
+...............Menu...............
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Quit
+
+                Choose option: 3
+
+Enter Customer Email: @.com
+
+Customer [dob=11-11-1998, email=@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0] Subscription [durationInMonths=3, startingFrom=31-03-2022, subscriptionPackage=PREMIUM]
