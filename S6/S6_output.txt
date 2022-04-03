@@ -1,0 +1,77 @@
+
+Enter number of accounts to create [int]: 1
+
+ 1.Create LoanAccount
+ 2.Create SavingAccount 
+ 3.List All Accounts 
+ 4.Withdraw from savingAccount 
+ 5.Quit 
+        Choose option [int]: 2
+
+Enter holderName, savedBalance [double String double]: dev 5000
+
+ 1.Create LoanAccount
+ 2.Create SavingAccount 
+ 3.List All Accounts 
+ 4.Withdraw from savingAccount 
+ 5.Quit 
+        Choose option [int]: 3
+
+--------------------------------------------------
+
+Account [holderName=dev, id=0] SavingAccount [savedBalance=5000.0]
+
+--------------------------------------------------
+
+ 1.Create LoanAccount
+ 2.Create SavingAccount 
+ 3.List All Accounts 
+ 4.Withdraw from savingAccount 
+ 5.Quit 
+        Choose option [int]: 4
+
+Enter Id, amount to withdraw: 0 2000
+Amount withdrawn.
+
+ 1.Create LoanAccount
+ 2.Create SavingAccount 
+ 3.List All Accounts 
+ 4.Withdraw from savingAccount 
+ 5.Quit 
+        Choose option [int]: 3
+
+--------------------------------------------------
+
+Account [holderName=dev, id=0] SavingAccount [savedBalance=3000.0]
+
+--------------------------------------------------
+
+ 1.Create LoanAccount
+ 2.Create SavingAccount 
+ 3.List All Accounts 
+ 4.Withdraw from savingAccount 
+ 5.Quit 
+        Choose option [int]: 4
+
+Enter Id, amount to withdraw: 0 7000
+Amount not withdrawn.
+
+ 1.Create LoanAccount
+ 2.Create SavingAccount 
+ 3.List All Accounts 
+ 4.Withdraw from savingAccount 
+ 5.Quit 
+        Choose option [int]: 3
+
+--------------------------------------------------
+
+Account [holderName=dev, id=0] SavingAccount [savedBalance=3000.0]
+
+--------------------------------------------------
+
+ 1.Create LoanAccount
+ 2.Create SavingAccount 
+ 3.List All Accounts 
+ 4.Withdraw from savingAccount 
+ 5.Quit 
+        Choose option [int]: 
