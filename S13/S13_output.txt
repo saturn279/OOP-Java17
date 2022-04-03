@@ -1,0 +1,264 @@
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 1
+
+Enter Customer email: @.com
+
+Enter name password registrationAmount dateOfBirth paymentOption  [String String String double dd-MM-yyyy String]: s pass 1000 11-11-1998 debitcard
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 2
+
+Customer [dob=11-11-1998, email=@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]  
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 4
+
+Enter Customer email, subscriptionPackage, durationInMonths [String String int]: @.com premium 3
+
+Subscription [durationInMonths=3, startingFrom=02-04-2022, subscriptionPackage=PREMIUM]
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 2
+
+Customer [dob=11-11-1998, email=@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0] 
+Subscription [durationInMonths=3, startingFrom=02-04-2022, subscriptionPackage=PREMIUM]
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 1
+
+Enter Customer email: s@.com
+
+Enter name password registrationAmount dateOfBirth paymentOption  [String String String double dd-MM-yyyy String]: s pass 1000 11-11-1998 debitcard
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 2
+
+Customer [dob=11-11-1998, email=s@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]  
+
+Customer [dob=11-11-1998, email=@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0] 
+Subscription [durationInMonths=3, startingFrom=02-04-2022, subscriptionPackage=PREMIUM]
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 5
+
+Enter Customer Email, Password [String String]: @.com pass
+
+Customer Logged In.
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 6
+
+Enter Customer Email oldPassword [String String]: @.com pass
+
+Enter newPassword: newpass
+
+Password Updated.
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 5
+
+Enter Customer Email, Password [String String]: @.com pass
+
+----------[ Wrong password. ]----------
+
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 5
+
+Enter Customer Email, Password [String String]: @.com newpass
+
+Customer Logged In.
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 7
+
+Enter Customer Email: @.com
+
+Customer Unsubscribed.
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 2
+
+Customer [dob=11-11-1998, email=s@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]  
+
+Customer [dob=11-11-1998, email=@.com, name=s, passwordHash=253c2e786c2414dcaec8dbf11df515b5075371454b93a5687d24d96ddbf3b939, paymentMethod=DEBITCARD, registrationAmount=1000.0]  
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 8
+
+Enter Customer Email: @.com
+
+Customer Account Deleted.
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 2
+
+Customer [dob=11-11-1998, email=s@.com, name=s, passwordHash=d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1, paymentMethod=DEBITCARD, registrationAmount=1000.0]  
+
+---------------Menu----------------
+
+        1. Register Customer
+        2. View Customers
+        3. Display Specific Customer Details
+        4. Get Subscription
+        5. Customer Login
+        6. Change Password
+        7. Unsubscribe
+        8. Delete Customer Account
+        9. Quit
+
+                Choose option: 
