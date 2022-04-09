@@ -1,0 +1,126 @@
+
+---------------Menu----------------
+
+        1. Add new product
+        2. Display all products
+        3. List products of specific category
+        4. Remove product details
+        5. Quit
+
+                Choose option: 2
+Product [id=32, name=maize, productCatgeory=GRAINS, manufactureDate=2020-01-13, price=510.0]
+Product [id=50, name=apple, productCatgeory=FRUITS, manufactureDate=2020-09-01, price=360.0]
+Product [id=35, name=wheat, productCatgeory=GRAINS, manufactureDate=2018-07-11, price=700.0]
+Product [id=100, name=mango, productCatgeory=FRUITS, manufactureDate=2019-01-01, price=500.0]
+Product [id=55, name=orange, productCatgeory=FRUITS, manufactureDate=2020-01-01, price=350.0]
+Product [id=10, name=rice_bran, productCatgeory=OIL, manufactureDate=2019-11-21, price=450.0]
+Product [id=75, name=barley, productCatgeory=GRAINS, manufactureDate=2019-11-21, price=460.0]
+Product [id=45, name=sunflower, productCatgeory=OIL, manufactureDate=2019-05-11, price=550.0]
+Product [id=30, name=rice, productCatgeory=GRAINS, manufactureDate=2019-01-13, price=520.0]
+
+---------------Menu----------------
+
+        1. Add new product
+        2. Display all products
+        3. List products of specific category
+        4. Remove product details
+        5. Quit
+
+                Choose option: 1
+
+Enter product id: 30
+Product with given Id already exist.
+
+---------------Menu----------------
+
+        1. Add new product
+        2. Display all products
+        3. List products of specific category
+        4. Remove product details
+        5. Quit
+
+                Choose option: 1
+
+Enter product id: 29
+
+Enter name, productCatgeory, manufactureDate, price : quinoa grains 2020-11-11 200
+Product added.
+
+---------------Menu----------------
+
+        1. Add new product
+        2. Display all products
+        3. List products of specific category
+        4. Remove product details
+        5. Quit
+
+                Choose option: 2
+Product [id=32, name=maize, productCatgeory=GRAINS, manufactureDate=2020-01-13, price=510.0]
+Product [id=50, name=apple, productCatgeory=FRUITS, manufactureDate=2020-09-01, price=360.0]
+Product [id=35, name=wheat, productCatgeory=GRAINS, manufactureDate=2018-07-11, price=700.0]
+Product [id=100, name=mango, productCatgeory=FRUITS, manufactureDate=2019-01-01, price=500.0]
+Product [id=55, name=orange, productCatgeory=FRUITS, manufactureDate=2020-01-01, price=350.0]
+Product [id=10, name=rice_bran, productCatgeory=OIL, manufactureDate=2019-11-21, price=450.0]
+Product [id=75, name=barley, productCatgeory=GRAINS, manufactureDate=2019-11-21, price=460.0]
+Product [id=45, name=sunflower, productCatgeory=OIL, manufactureDate=2019-05-11, price=550.0]
+Product [id=29, name=quinoa, productCatgeory=GRAINS, manufactureDate=2020-11-11, price=200.0]
+Product [id=30, name=rice, productCatgeory=GRAINS, manufactureDate=2019-01-13, price=520.0]
+
+---------------Menu----------------
+
+        1. Add new product
+        2. Display all products
+        3. List products of specific category
+        4. Remove product details
+        5. Quit
+
+                Choose option: 3
+
+Enter Product Category: grains
+Product [id=35, name=wheat, productCatgeory=GRAINS, manufactureDate=2018-07-11, price=700.0]
+Product [id=30, name=rice, productCatgeory=GRAINS, manufactureDate=2019-01-13, price=520.0]
+Product [id=75, name=barley, productCatgeory=GRAINS, manufactureDate=2019-11-21, price=460.0]
+Product [id=32, name=maize, productCatgeory=GRAINS, manufactureDate=2020-01-13, price=510.0]
+Product [id=29, name=quinoa, productCatgeory=GRAINS, manufactureDate=2020-11-11, price=200.0]
+
+---------------Menu----------------
+
+        1. Add new product
+        2. Display all products
+        3. List products of specific category
+        4. Remove product details
+        5. Quit
+
+                Choose option: 4
+
+Enter Product Id: 29
+Product Deleted
+
+---------------Menu----------------
+
+        1. Add new product
+        2. Display all products
+        3. List products of specific category
+        4. Remove product details
+        5. Quit
+
+                Choose option: 2
+Product [id=32, name=maize, productCatgeory=GRAINS, manufactureDate=2020-01-13, price=510.0]
+Product [id=50, name=apple, productCatgeory=FRUITS, manufactureDate=2020-09-01, price=360.0]
+Product [id=35, name=wheat, productCatgeory=GRAINS, manufactureDate=2018-07-11, price=700.0]
+Product [id=100, name=mango, productCatgeory=FRUITS, manufactureDate=2019-01-01, price=500.0]
+Product [id=55, name=orange, productCatgeory=FRUITS, manufactureDate=2020-01-01, price=350.0]
+Product [id=10, name=rice_bran, productCatgeory=OIL, manufactureDate=2019-11-21, price=450.0]
+Product [id=75, name=barley, productCatgeory=GRAINS, manufactureDate=2019-11-21, price=460.0]
+Product [id=45, name=sunflower, productCatgeory=OIL, manufactureDate=2019-05-11, price=550.0]
+Product [id=30, name=rice, productCatgeory=GRAINS, manufactureDate=2019-01-13, price=520.0]
+
+---------------Menu----------------
+
+        1. Add new product
+        2. Display all products
+        3. List products of specific category
+        4. Remove product details
+        5. Quit
+
+                Choose option: 
