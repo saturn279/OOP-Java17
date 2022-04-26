@@ -1,0 +1,11 @@
+TransactionDate,Narration,WithdrawalAmount,DepositAmount 
+01-03-2022,Salary Credit,0.0,50000.0
+01-03-2022,Mobile Recharge,300.0,0.0
+02-03-2022,DTH Recharge,1000.0,0.0
+2-3-2022,Rent Transfer,11000.0,0
+02-03-2022,Cashback Paytm,0.0,1000.0
+05-03-2022,Shopping,5000.0,0.0
+01-03-2022,Shopping,7000.0,0.0
+15-03-2022,Cashback,0.0,3000.0
+25-03-2022,Mobile Purchase,10000.0,0.0
+31-03-2022,Dining,1200.0,0.0

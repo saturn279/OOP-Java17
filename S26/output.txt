@@ -1,0 +1,28 @@
+#Output
+
+Sum of all deposits = 54000.0
+Max deposit amount= 50000.0
+Date on which max amount withdrawn= 02-03-2022
+
+
+
+
+
+#Exceptions when taking input from file, shows the problem and line in input file that needs correction. 
+#Exception output when file contains transaction date that is in the future.
+
+Transaction date 01-03-2023 after today. Input file line number 8
+
+
+
+
+#Exception output when file contains date in invalid format
+
+Invalid transaction date format in input file on line number 8
+
+
+
+
+#Exception output when file contains amount that is not double  
+
+Invalid amount x10000.0 in input file on line number 10
